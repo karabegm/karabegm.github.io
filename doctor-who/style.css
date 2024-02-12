@@ -1,0 +1,130 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.header, .footer{
+    background-color: #051122;
+    color: #f9faf8;
+}
+
+.header, .information, .quote, .advert {
+    flex: 3
+}
+
+.footer{
+    font-size: 12px;
+}
+
+.logo{
+    width: 250px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    height: fit-content;    
+}
+
+li{
+    margin: 10px;
+}
+
+.header-photo {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(73, 13, 73);
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    height: 15%;
+}
+
+.header-content{
+    display: flex;
+    text-align: left;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10%;
+    border: 1px solid #3882f6;
+    width: 75px;
+
+}
+
+.text {
+    margin: 0;
+}
+
+.information{
+}
+
+.facts{
+    display: flex;
+    justify-content: space-around;      
+}
+
+
+.doctors{
+    height: 200px;
+    width: auto;
+    border: 2px solid blue;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font: 20px light italic;
+    color: #1f2937;
+    padding: 30px 120px;
+}
+
+.signature{
+    font-size: 10px;
+    text-align: right;
+    font-weight: bold;
+    font: 12px serif;
+}
+
+.advert{
+    background-color:#3882f6;
+    color: #f9faf8;
+    border-radius: 3%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.action-text {
+    font-size: small;
+    text-align: left;
+    width: 300px;
+}
+
+.advert-button{
+    border: 1px solid #f9faf8;
+    height: fit-content;
+    width: 75px;
+}
